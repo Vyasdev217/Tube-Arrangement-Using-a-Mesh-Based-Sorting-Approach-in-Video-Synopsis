@@ -1,76 +1,38 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
-title: >-
-  Tube Arrangement Using a Mesh-Based Sorting Approach in
-  Video Synopsis
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
-type: software
-authors:
-  - given-names: Vyasdev
-    email: contact@vyasdev.net
-    orcid: 'https://orcid.org/0009-0006-1883-6537'
-    affiliation: >-
-      Department of Computer Science and Engineering,
-      National Institute of Technology Puducherry, Karaikal
-      609609, India
-  - given-names: Koustuv
-    family-names: Saha
-    email: koustuv026saha@gmail.com
-    affiliation: >-
-      Department of Computer Science and Engineering,
-      National Institute of Technology Puducherry, Karaikal
-      609609, India
-    orcid: 'https://orcid.org/0009-0002-4290-7156'
-  - affiliation: >-
-      Department of Computer Science and Engineering,
-      National Institute of Technology Puducherry, Karaikal
-      609609, India
-    given-names: Jeel
-    family-names: Patel
-    email: jeelpatel4221@gmail.com
-    orcid: 'https://orcid.org/0009-0003-0855-0656'
-  - affiliation: >-
-      Department of Computer Science and Engineering,
-      National Institute of Technology Puducherry, Karaikal
-      609609, India
-    given-names: Ansuman
-    family-names: Mahapatra
-    orcid: 'https://orcid.org/0000-0002-5040-6557'
-    email: ansuman.mahapatra@nitpy.ac.in
-  - given-names: Priyadharshini
-    family-names: S
-    email: priyadharshini@iiitkottayam.ac.in
-    affiliation: >-
-      Indian Institute of Information Technology, Kottayam
-      686635, India
-    orcid: 'https://orcid.org/0000-0002-1651-5434'
-identifiers:
-  - type: doi
-    value: 10.1109/LSP.2025.3631432
-repository-code: >-
-  https://github.com/Vyasdev217/Tube-Arrangement-Using-a-Mesh-Based-Sorting-Approach-in-Video-Synopsis
-abstract: >-
-  As the amount of surveillance video keeps growing rapidly,
-  monitoring it has become harder and takes more time. Video
-  synopsis helps by making a compact version of the original
-  video, eliminating spatial and temporal redundancies while
-  retaining all critical activities. In contrast to
-  conventional approaches that rely on traditional tube
-  rearrangement strategies, this work proposes a novel
-  mesh-based tube sorting algorithm within a comprehensive
-  video synopsis pipeline. The framework includes object
-  segmentation and tracking using the YOLO11 segmentation
-  model, followed by tube extraction and rearrangement using
-  custom algorithms. Furthermore, a new evaluation metric is
-  introduced to measure tube rearrangement algorithms, with
-  lower computational complexity than existing metrics in
-  the domain of video synopsis. To improve accuracy, an
-  interpolation algorithm is also proposed to reconstruct
-  broken object tubes caused by detection or segmentation
-  errors, resulting in a more efficient and robust video
-  synopsis framework.
-license: AGPL-3.0
+message: Please cite the following work when using this software.
+preferred-citation:
+  authors:
+    - family-names: Vyasdev
+      orcid: https://orcid.org/0009-0006-1883-6537
+    - family-names: Saha
+      given-names: Koustuv
+      orcid: https://orcid.org/0009-0002-4290-7156
+    - family-names: Patel
+      given-names: Jeel
+      orcid: https://orcid.org/0009-0003-0855-0656
+    - family-names: Mahapatra
+      given-names: Ansuman
+      orcid: https://orcid.org/0000-0002-5040-6557
+    - family-names: S
+      given-names: Priyadharshini
+  doi: 10.1109/lsp.2025.3631432
+  identifiers:
+    - type: doi
+      value: 10.1109/lsp.2025.3631432
+    - type: url
+      value: http://dx.doi.org/10.1109/LSP.2025.3631432
+    - type: other
+      value: urn:issn:1070-9908
+  title: Tube Arrangement Using a Mesh-Based Sorting Approach in Video Synopsis
+  url: http://dx.doi.org/10.1109/LSP.2025.3631432
+  database: Crossref
+  date-published: 2025-01-01
+  year: 2025
+  issn: 1070-9908
+  journal: IEEE Signal Processing Letters
+  publisher:
+    name: Institute of Electrical and Electronics Engineers (IEEE)
+  start: '4389'
+  end: '4393'
+  type: article
+  volume: '32'
